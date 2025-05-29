@@ -10,7 +10,7 @@ const PORT = 8081;
 
 // Initialize OpenAI
 // IMPORTANT: Replace with your actual OpenAI API key
-const OPENAI_API_KEY = process.env.OPENAI_API_KEY || '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';
+const OPENAI_API_KEY = process.env.OPENAI_API_KEY || '';
 
 if (OPENAI_API_KEY === 'YOUR_OPENAI_API_KEY_HERE') {
   console.warn('⚠️  WARNING: Please set your OpenAI API key!');
